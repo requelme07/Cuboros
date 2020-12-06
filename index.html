@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>CUROBOROS</title>
+</head>
+<body>
+
+  <!-- Sprite -->
+<svg style="display: none;">
+  <symbol id="bell" viewBox="0 0 24 24">
+    <g>
+      <circle cx="10.937" cy="20" fill="#F0EEFF" r="3.296"/><path d="m19.319 17.455c-1.351-1.174-2.126-2.891-2.126-4.71v-2.562c0-3.548-2.807-6.434-6.256-6.434s-6.256 2.886-6.256 6.434v2.562c0 1.819-.775 3.536-2.134 4.717-.348.307-.547.753-.547 1.223 0 .887.702 1.608 1.564 1.608h14.747c.862 0 1.564-.722 1.564-1.608 0-.47-.2-.916-.556-1.23z" fill="#F0EEFF"/><circle cx="18" cy="5" fill="#f44336" r="5"/><path d="m11 24c-2.067 0-3.75-1.682-3.75-3.75 0-.414.336-.75.75-.75s.75.336.75.75c0 1.241 1.01 2.25 2.25 2.25s2.25-1.009 2.25-2.25c0-.414.336-.75.75-.75s.75.336.75.75c0 2.068-1.683 3.75-3.75 3.75z"/><path d="m19.25 21h-16.5c-.965 0-1.75-.785-1.75-1.75 0-.512.223-.997.612-1.33.025-.022.052-.042.08-.06 1.468-1.281 2.308-3.124 2.308-5.07v-2.79c0-3.86 3.141-7 7-7 .16 0 .333.003.493.03.409.068.685.455.617.863-.068.409-.463.682-.863.616-.08-.012-.168-.01-.247-.009-3.032 0-5.5 2.467-5.5 5.5v2.79c0 2.416-1.059 4.702-2.903 6.271-.015.012-.028.023-.044.034-.027.034-.053.086-.053.155 0 .136.114.25.25.25h16.5c.136 0 .25-.114.25-.25 0-.07-.026-.121-.054-.155-.015-.011-.028-.022-.043-.034-1.845-1.57-2.903-3.855-2.903-6.271v-1.09c0-.414.336-.75.75-.75s.75.336.75.75v1.09c0 1.947.841 3.791 2.311 5.073.027.018.053.037.077.058.389.332.612.817.612 1.329 0 .965-.785 1.75-1.75 1.75z"/><path d="m18 10c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5zm0-8.5c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5z"/>
+    </g>
+</symbol>
+</svg>
+
+<div class="main-container" id="mainContainer" >
+  
+  <!-- Menu -->
+  <div class="menu" id="menu">
+
+    <header class="menu-header">
+      <img class="header-logo" src="img/logo.png" alt="logo">
+      <button class="burger" type="button" id="navToggle">
+        <span class="burger-item"></span>
+      </button>
+    </header>
+
+    <nav class="menu-nav">
+      <img class="rectangle-icon" src="img/rectangle.png" alt="">
+      <a class="nav-item">
+        <img class="nav-icon" src="img/purse.png" alt="Кошелек">
+        <p class="nav-text">Кошелек</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/frame.png" alt="Процентная ставка">
+        <p class="nav-text">Процентная ставка</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/shape.png" alt="File Requests">
+        <p class="nav-text">File Requests</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/exchanger.png" alt="Обменник">
+        <p class="nav-text">Обменник</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/instructions.png" alt="Инструкции">
+        <p class="nav-text">Инструкции</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/profile.png" alt="Профиль">
+        <p class="nav-text">Профиль</p>
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/logout.png" alt="Выход">
+        <p class="nav-text">Logout</p>
+      </a>
+    </nav>
+
+  </div> <!-- /.menu -->
+
+  <div class="menu-small" id="menuSmall">
+
+    <button class="burger burger-small" type="button">
+      <span class="burger-item"></span>
+    </button>
+
+    <nav class="menu-nav menu-nav_small">
+      <a class="nav-item">
+        <img class="nav-icon" src="img/purse.png" alt="Кошелек">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/frame.png" alt="Процентная ставка">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/shape.png" alt="File Requests">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/exchanger.png" alt="Обменник">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/instructions.png" alt="Инструкции">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/profile.png" alt="Профиль">
+      </a>
+      <a class="nav-item">
+        <img class="nav-icon" src="img/logout.png" alt="Выход">
+      </a>
+    </nav>
+
+  </div>
+
+  <!-- Main-content -->
+  <div class="main-content" id="mainContent">
+
+  <!-- Profile -->
+    <div class="profile">
+
+      <div class="profile_flex-container">
+        <form class="profile-search" action="" method="get">
+          <img class="search-icon" src="img/search.png" alt="Иконка поиска">
+          <input class="search-input" name="search" placeholder="Search" type="search">
+        </form>
+        <div class="profile-bar">
+            <a class="profile-bar_item" href="#">
+              <img src="img/suport.png" alt="Помощь">
+            </a>
+            <a class="profile-bar_item" href="#">
+              <img src="img/set.png" alt="Настройки">
+            </a>
+            <a class="profile-bar_item" href="#">
+              <svg class="profile-bar_bell">
+                <use xlink:href="#bell"></use>
+              </svg>
+            </a>
+            <a class="profile-bar_photo" href="#">
+              <img src="img/photo.png" alt="Фото профиля">
+            </a>
+            <a class="profile-bar_name" href="#">Jannie</a>
+          </div>
+      </div>
+
+        <div class="profile-main">
+            <h4 class="profile-main_title">Ваш профиль</h4>
+            <p class="profile-main_text">Логин в системе OURO: <b>Ouro2345</b></p>
+          <img class="profile-main_img" src="img/profile-info.png" alt="">
+        </div>
+
+    </div> <!-- /.profile -->
+
+    <!-- Setting -->
+    <div class="setting-container">
+
+      <div class="setting-personal">
+        <div class="setting-header">
+          <div class="setting-header_icon">
+            <img src="img/personal.png" alt="Личные данные" >
+          </div>
+          <h4 class="setting-header_title">Личные данные</h4>
+        </div>
+        <form class="setting-form"  id="form">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/user-form.png" alt="">
+              <input class="form-control setting-form_input" type="text" id="name" placeholder="Placeholders" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Ваша фамилия</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/user-form.png" alt="">
+            <input type="text" class="form-control setting-form_input" id="lastName" placeholder="Placeholders">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш Email</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/mail-form.png" alt="">
+            <input type="email" class="form-control setting-form_input" id="email" placeholder="Placeholders">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Ваш телефон</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/phone-form.png" alt="">
+            <input type="number" class="form-control setting-form_input" id="phone" placeholder="Placeholders">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-form" id="save-btn">Сохранить изменения</button>
+        </form>
+      </div>
+
+      <div class="settings-social">
+        <div class="setting-header">
+          <div class="setting-header_icon setting-header_icon__pink">
+            <img src="img/social.png" alt="Социальные сети" >
+          </div>
+          <h4 class="setting-header_title">Социальные сети</h4>
+        </div>
+        <form class="setting-form">
+          <div class="form-group">
+            <label for="facebook">Facebook</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/facebook-form.png" alt="">
+              <input class="form-control setting-form_input" type="text" id="facebook" placeholder="Placeholders">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="vk">VK</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon form-icon_vk" src="img/vk-form.png" alt="">
+            <input type="text" class="form-control setting-form_input" id="vk" placeholder="Placeholders">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ok">Odnoklassniki</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon form-icon_ok" src="img/ok-form.png" alt="">
+            <input type="text" class="form-control setting-form_input" id="ok" placeholder="Placeholders">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="telegram">Telegram</label>
+            <div class="form-wraper_icon">
+              <img class="form_icon" src="img/telegram.png" alt="">
+            <input type="text" class="form-control setting-form_input" id="telegram" placeholder="Placeholders">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-form" id="saveBtnSocial">Сохранить изменения</button>
+        </form>
+      </div>
+
+      <div class="settings-password">
+        <div class="setting-header">
+          <div class="setting-header_icon setting-header_icon_yellow">
+            <img src="img/password.png" alt="Смена пароля" >
+          </div>
+          <h4 class="setting-header_title">Смена пароля</h4>
+        </div>
+        <form class="setting-form setting-form_password">
+          <div class="form-group">
+            <label for="oldPassword">Full name</label>
+              <input class="form-control setting-form_input" type="password" id="oldPassword" placeholder="Placeholders">
+          </div>
+          <div class="form-group">
+            <label for="newPassword">Full name</label>
+            <input type="password" class="form-control setting-form_input" id="newPassword" placeholder="Placeholders">
+          </div>
+          <div class="form-group">
+            <label for="repeatPassword">Full name</label>
+            <input type="password" class="form-control setting-form_input" id="repeatPassword" placeholder="Placeholders">
+          </div>
+          <button type="submit" class="btn btn-primary btn-form" id="saveBtnPassword">Сохранить изменения</button>
+        </form>
+      </div>
+      
+    </div> <!-- /.settings-container -->
+
+  </div> <!-- /.main-content -->
+
+</div> <!-- /.main-container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
